@@ -43,6 +43,7 @@ document.getElementById("file").addEventListener("change", function(e) {
 
     reader.onload = (event) => {
       fileName.textContent = file.name;
+      document.getElementById('start').classList.add('enable')
       console.log("he", file.name);
     };
 

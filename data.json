@@ -1,107 +1,104 @@
 {
-    "questions": [
-      {
-        "question": "Câu 1. Điền từ thích hợp vào chỗ trống: 'Tư tưởng Hồ Chí Minh là một hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của ........'.",
-        "correct_answer": "Cách mạng Việt Nam",
-        "options": [
-          "Cách mạng Việt Nam",
-          "Đời sống xã hội",
-          "Chủ nghĩa cộng sản",
-          "Chính sách đối ngoại"
-        ]
-      },
-      {
-        "question": "Câu 2. Điền từ thích hợp để hoàn thiện quan điểm sau được nêu trong Đại hội VII (1991) của Đảng Cộng sản Việt Nam: 'Tư tưởng Hồ Chí Minh chính là kết quả sự…….. chủ nghĩa Mác - Lênin trong điều kiện cụ thể của nước ta'.",
-        "correct_answer": "Vận dụng sáng tạo",
-        "options": [
-          "Vận dụng sáng tạo",
-          "Áp dụng máy móc",
-          "Chuyển hóa hoàn toàn",
-          "Bảo vệ tuyệt đối"
-        ]
-      },
-      {
-        "question": "Câu 3. Khái niệm tư tưởng Hồ Chí Minh là:",
-        "correct_answer": "Tất cả các đáp án trên",
-        "options": [
-          "Tất cả các đáp án trên",
-          "Hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam",
-          "Tài sản tinh thần vô cùng to lớn và quý giá của Đảng và dân tộc ta",
-          "Kết quả của sự vận dụng sáng tạo chủ nghĩa Mác - Lênin vào điều kiện cụ thể của nước ta",
-          "Phương pháp tư duy biện chứng của Người",
-          "Triết lý phát triển bền vững của Hồ Chí Minh"
-        ]
-      },
-      {
-        "question": "Câu 4: Khái niệm tư tưởng Hồ Chí Minh là:",
-        "correct_answer": "Hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam",
-        "options": [
-          "Hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam",
-          "Triết lý kinh tế của dân tộc ta",
-          "Nền tảng văn hóa cách mạng",
-          "Hệ tư tưởng chính trị của nước ta"
-        ]
-      },
-      {
-        "question": "Câu 5. Khái niệm tư tưởng Hồ Chí Minh được đưa vào văn kiện chính thức của Đảng ta khi nào?",
-        "correct_answer": "1991",
-        "options": [
-          "1991",
-          "1975",
-          "2000",
-          "1986"
-        ]
-      },
-      {
-        "question": "Câu 6. Điền từ còn thiếu vào chỗ trống: 'Đảng lấy chủ nghĩa Mác – Lênin và Tư tưởng Hồ Chí Minh làm………, kim chỉ nam cho mọi hành động' (Trích Đại hội Đại biểu toàn Quốc lần thứ VII)",
-        "correct_answer": "Nền tảng tư tưởng",
-        "options": [
-          "Nền tảng tư tưởng",
-          "Triết lý chính trị",
-          "Hệ thống giá trị",
-          "Kim chỉ nam tinh thần"
-        ]
-      },
-      {
-        "question": "Câu 7. Điếu văn của Ban Chấp hành Trung ương Đảng trong đám tang Chủ tịch Hồ Chí Minh năm 1969 đã khẳng định Chủ tịch Hồ Chí Minh là:",
-        "correct_answer": "“Anh hùng dân tộc vĩ đại”",
-        "options": [
-          "“Anh hùng dân tộc vĩ đại”",
-          "“Người con ưu tú của dân tộc”",
-          "“Nhà cách mạng lỗi lạc”",
-          "“Người lãnh đạo thiên tài”"
-        ]
-      },
-      {
-        "question": "Câu 8. Điền từ thích hợp để hoàn thành luận điểm sau: 'Dân tộc ta, nhân dân ta, non sông đất nước ta đã sinh ra Hồ Chủ tịch, ……………., và chính Người đã làm rạng rỡ dân tộc ta, nhân dân ta và non sông đất nước ta' (Trích trong Điếu văn của Ban Chấp hành Trung ương Đảng trong đám tang Chủ tịch Hồ Chí Minh năm 1969)",
-        "correct_answer": "Người anh hùng dân tộc vĩ đại",
-        "options": [
-          "Người anh hùng dân tộc vĩ đại",
-          "Người lãnh đạo lỗi lạc",
-          "Nhà cách mạng vĩ đại",
-          "Vị cha già dân tộc"
-        ]
-      },
-      {
-        "question": "Câu 9. Nội dung nào là một trong những nguyên tắc phương pháp luận trong nghiên cứu môn tư tưởng Hồ Chí Minh?",
-        "correct_answer": "Quan điểm kế thừa và phát triển",
-        "options": [
-          "Quan điểm kế thừa và phát triển",
-          "Quan điểm duy vật biện chứng",
-          "Quan điểm thực tiễn",
-          "Quan điểm sáng tạo không ngừng"
-        ]
-      },
-      {
-        "question": "Câu 10. Đối tượng nghiên cứu của Tư tưởng Hồ Chí Minh:",
-        "correct_answer": "Hệ thống các quan điểm, lý luận của Hồ Chí Minh",
-        "options": [
-          "Hệ thống các quan điểm, lý luận của Hồ Chí Minh",
-          "Con đường cách mạng của Hồ Chí Minh",
-          "Những tác phẩm của Hồ Chí Minh",
-          "Sự nghiệp giải phóng dân tộc của Hồ Chí Minh"
-        ]
-      }
-    ]
-  }
-  
+  "questions": [
+    {
+      "question": "Khái niệm tư tưởng Hồ Chí Minh là:",
+      "correct_answer": 5,
+      "options": [
+        "Triết lý phát triển bền vững của Hồ Chí Minh",
+        "Tài sản tinh thần vô cùng to lớn và quý giá của Đảng và dân tộc ta",
+        "Kết quả của sự vận dụng sáng tạo chủ nghĩa Mác - Lênin vào điều kiện cụ thể của nước ta",
+        "Tất cả các đáp án trên"
+      ]
+    },
+    {
+      "question": "Khái niệm tư tưởng Hồ Chí Minh là:",
+      "correct_answer": 1,
+      "options": [
+        "Triết lý kinh tế của dân tộc ta",
+        "Hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam",
+        "Hệ tư tưởng chính trị của nước ta",
+        "Nền tảng văn hóa cách mạng"
+      ]
+    },
+    {
+      "question": "Điền từ thích hợp để hoàn thiện quan điểm sau được nêu trong Đại hội VII (1991) của Đảng Cộng sản Việt Nam: 'Tư tưởng Hồ Chí Minh chính là kết quả sự…….. chủ nghĩa Mác - Lênin trong điều kiện cụ thể của nước ta'.",
+      "correct_answer": 2,
+      "options": [
+        "Áp dụng máy móc",
+        "Chuyển hóa hoàn toàn",
+        "Vận dụng sáng tạo",
+        "Bảo vệ tuyệt đối"
+      ]
+    },
+    {
+      "question": "Khái niệm tư tưởng Hồ Chí Minh được đưa vào văn kiện chính thức của Đảng ta khi nào?",
+      "correct_answer": 1,
+      "options": [
+        "1975",
+        "1991",
+        "1986",
+        "2000"
+      ]
+    },
+    {
+      "question": "Điền từ thích hợp để hoàn thành luận điểm sau: 'Dân tộc ta, nhân dân ta, non sông đất nước ta đã sinh ra Hồ Chủ tịch, ……………., và chính Người đã làm rạng rỡ dân tộc ta, nhân dân ta và non sông đất nước ta' (Trích trong Điếu văn của Ban Chấp hành Trung ương Đảng trong đám tang Chủ tịch Hồ Chí Minh năm 1969)",
+      "correct_answer": 2,
+      "options": [
+        "Vị cha già dân tộc",
+        "Người lãnh đạo lỗi lạc",
+        "Người anh hùng dân tộc vĩ đại",
+        "Nhà cách mạng vĩ đại"
+      ]
+    },
+    {
+      "question": "Điền từ thích hợp vào chỗ trống: 'Tư tưởng Hồ Chí Minh là một hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của ........'.",
+      "correct_answer": 3,
+      "options": [
+        "Đời sống xã hội",
+        "Chủ nghĩa cộng sản",
+        "Chính sách đối ngoại",
+        "Cách mạng Việt Nam"
+      ]
+    },
+    {
+      "question": "Đối tượng nghiên cứu của Tư tưởng Hồ Chí Minh:",
+      "correct_answer": 0,
+      "options": [
+        "Hệ thống các quan điểm, lý luận của Hồ Chí Minh",
+        "Sự nghiệp giải phóng dân tộc của Hồ Chí Minh",
+        "Con đường cách mạng của Hồ Chí Minh",
+        "Những tác phẩm của Hồ Chí Minh"
+      ]
+    },
+    {
+      "question": "Điếu văn của Ban Chấp hành Trung ương Đảng trong đám tang Chủ tịch Hồ Chí Minh năm 1969 đã khẳng định Chủ tịch Hồ Chí Minh là:",
+      "correct_answer": 3,
+      "options": [
+        "“Nhà cách mạng lỗi lạc”",
+        "“Người lãnh đạo thiên tài”",
+        "“Người con ưu tú của dân tộc”",
+        "“Anh hùng dân tộc vĩ đại”"
+      ]
+    },
+    {
+      "question": "Nội dung nào là một trong những nguyên tắc phương pháp luận trong nghiên cứu môn tư tưởng Hồ Chí Minh?",
+      "correct_answer": 2,
+      "options": [
+        "Quan điểm sáng tạo không ngừng",
+        "Quan điểm thực tiễn",
+        "Quan điểm kế thừa và phát triển",
+        "Quan điểm duy vật biện chứng"
+      ]
+    },
+    {
+      "question": "Điền từ còn thiếu vào chỗ trống: 'Đảng lấy chủ nghĩa Mác – Lênin và Tư tưởng Hồ Chí Minh làm………, kim chỉ nam cho mọi hành động' (Trích Đại hội Đại biểu toàn Quốc lần thứ VII)",
+      "correct_answer": 3,
+      "options": [
+        "Kim chỉ nam tinh thần",
+        "Hệ thống giá trị",
+        "Triết lý chính trị",
+        "Nền tảng tư tưởng"
+      ]
+    }
+  ]
+}
