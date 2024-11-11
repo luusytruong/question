@@ -2,7 +2,7 @@
   "questions": [
     {
       "question": "Khái niệm tư tưởng Hồ Chí Minh là:",
-      "correct_answer": 5,
+      "correct_answer": "Tất cả các đáp án trên",
       "options": [
         "Triết lý phát triển bền vững của Hồ Chí Minh",
         "Tài sản tinh thần vô cùng to lớn và quý giá của Đảng và dân tộc ta",
@@ -11,18 +11,8 @@
       ]
     },
     {
-      "question": "Khái niệm tư tưởng Hồ Chí Minh là:",
-      "correct_answer": 1,
-      "options": [
-        "Triết lý kinh tế của dân tộc ta",
-        "Hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam",
-        "Hệ tư tưởng chính trị của nước ta",
-        "Nền tảng văn hóa cách mạng"
-      ]
-    },
-    {
       "question": "Điền từ thích hợp để hoàn thiện quan điểm sau được nêu trong Đại hội VII (1991) của Đảng Cộng sản Việt Nam: 'Tư tưởng Hồ Chí Minh chính là kết quả sự…….. chủ nghĩa Mác - Lênin trong điều kiện cụ thể của nước ta'.",
-      "correct_answer": 2,
+      "correct_answer": "Vận dụng sáng tạo",
       "options": [
         "Áp dụng máy móc",
         "Chuyển hóa hoàn toàn",
@@ -32,7 +22,7 @@
     },
     {
       "question": "Khái niệm tư tưởng Hồ Chí Minh được đưa vào văn kiện chính thức của Đảng ta khi nào?",
-      "correct_answer": 1,
+      "correct_answer": "1991",
       "options": [
         "1975",
         "1991",
@@ -42,7 +32,7 @@
     },
     {
       "question": "Điền từ thích hợp để hoàn thành luận điểm sau: 'Dân tộc ta, nhân dân ta, non sông đất nước ta đã sinh ra Hồ Chủ tịch, ……………., và chính Người đã làm rạng rỡ dân tộc ta, nhân dân ta và non sông đất nước ta' (Trích trong Điếu văn của Ban Chấp hành Trung ương Đảng trong đám tang Chủ tịch Hồ Chí Minh năm 1969)",
-      "correct_answer": 2,
+      "correct_answer": "Người anh hùng dân tộc vĩ đại",
       "options": [
         "Vị cha già dân tộc",
         "Người lãnh đạo lỗi lạc",
@@ -51,8 +41,18 @@
       ]
     },
     {
+      "question": "Khái niệm tư tưởng Hồ Chí Minh là:",
+      "correct_answer": "Hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam",
+      "options": [
+        "Triết lý kinh tế của dân tộc ta",
+        "Hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam",
+        "Hệ tư tưởng chính trị của nước ta",
+        "Nền tảng văn hóa cách mạng"
+      ]
+    },
+    {
       "question": "Điền từ thích hợp vào chỗ trống: 'Tư tưởng Hồ Chí Minh là một hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của ........'.",
-      "correct_answer": 3,
+      "correct_answer": "Cách mạng Việt Nam",
       "options": [
         "Đời sống xã hội",
         "Chủ nghĩa cộng sản",
@@ -62,7 +62,7 @@
     },
     {
       "question": "Đối tượng nghiên cứu của Tư tưởng Hồ Chí Minh:",
-      "correct_answer": 0,
+      "correct_answer": "Hệ thống các quan điểm, lý luận của Hồ Chí Minh",
       "options": [
         "Hệ thống các quan điểm, lý luận của Hồ Chí Minh",
         "Sự nghiệp giải phóng dân tộc của Hồ Chí Minh",
@@ -72,7 +72,7 @@
     },
     {
       "question": "Điếu văn của Ban Chấp hành Trung ương Đảng trong đám tang Chủ tịch Hồ Chí Minh năm 1969 đã khẳng định Chủ tịch Hồ Chí Minh là:",
-      "correct_answer": 3,
+      "correct_answer": "“Anh hùng dân tộc vĩ đại”",
       "options": [
         "“Nhà cách mạng lỗi lạc”",
         "“Người lãnh đạo thiên tài”",
@@ -82,7 +82,7 @@
     },
     {
       "question": "Nội dung nào là một trong những nguyên tắc phương pháp luận trong nghiên cứu môn tư tưởng Hồ Chí Minh?",
-      "correct_answer": 2,
+      "correct_answer": "Quan điểm kế thừa và phát triển",
       "options": [
         "Quan điểm sáng tạo không ngừng",
         "Quan điểm thực tiễn",
@@ -92,7 +92,7 @@
     },
     {
       "question": "Điền từ còn thiếu vào chỗ trống: 'Đảng lấy chủ nghĩa Mác – Lênin và Tư tưởng Hồ Chí Minh làm………, kim chỉ nam cho mọi hành động' (Trích Đại hội Đại biểu toàn Quốc lần thứ VII)",
-      "correct_answer": 3,
+      "correct_answer": "Nền tảng tư tưởng",
       "options": [
         "Kim chỉ nam tinh thần",
         "Hệ thống giá trị",

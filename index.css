@@ -39,6 +39,18 @@ body {
     height: 100svh;
 }
 
+input[type="file"] {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+    border: unset;
+    font-size: 16px;
+}
+input{
+    font-size: 16px;
+}
 body {
     #toast {
         display: none;
@@ -129,13 +141,22 @@ body {
     display: none;
 }
 
-.json-input .wrapper {
+.json-input .options {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    gap: 16px;
 }
-
+#remove{
+    background-color: #BB0000;
+    padding: 4px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#remove:active{
+    background-color: #AA0000;
+    scale: 0.99;
+}
 .json-input label {
     display: inherit;
     align-items: inherit;
@@ -172,6 +193,7 @@ body {
 }
 #start.enable{
     background-color: #0081FF;
+    box-shadow: 0 0 10px #0081FF;
     cursor: pointer;
 }
 .app {
@@ -188,16 +210,6 @@ body {
     flex-direction: column;
     flex: 1;
 }
-
-input[type="file"] {
-    display: none;
-}
-
-button {
-    cursor: pointer;
-    border: unset;
-}
-
 .title {
     font-size: 32px;
     text-align: center;
@@ -255,7 +267,6 @@ button {
 
 .question-num {
     font-size: 32px;
-    font-weight: b;
     padding: 4px 12px;
     display: flex;
     justify-content: center;
@@ -271,7 +282,9 @@ button {
         color: #0091FF;
     }
 }
-
+.correct-answer{
+    display: none;
+}
 .question-body {
     display: flex;
     justify-content: center;
