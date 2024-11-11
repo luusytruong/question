@@ -1,13 +1,19 @@
 //func sound eff
-function sound(type) {
+async function sound(type) {
+  let sound = null;
   if (type == "correct") {
-    const sound = new Audio("./sound/correct.mp3");
+    sound = new Audio("./sound/correct.mp3");
     sound.currentTime = 0;
-    sound.play();
   } else if (type == "uwu") {
-    const sound = new Audio("./sound/uwu.mp3");
+    sound = new Audio("./sound/uwu.mp3");
     sound.currentTime = 0.7;
-    sound.play();
+  }
+  try {
+    if (sound) {
+      await sound.play();
+    }
+  } catch (err) {
+    console.log(err);
   }
 }
 //anti spam
