@@ -153,7 +153,6 @@ body {
 .json-input .options {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 16px;
 }
 
@@ -180,12 +179,18 @@ body {
     padding: 4px 12px;
     border-radius: 6px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .file-upload-name {
     border-radius: 6px;
     background-color: #0081FF2A;
     padding: 4px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .json-input .fake-button:active {
