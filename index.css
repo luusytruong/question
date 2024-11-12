@@ -312,7 +312,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     padding: 16px 0;
-    height: calc(100svh - 120px);
+    height: calc(100svh - 132px);
     overflow-y: auto;
 }
 
@@ -360,7 +360,7 @@ body {
 .question-body {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
     margin-top: 16px;
     margin: 16px 15px 0 15px;
