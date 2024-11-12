@@ -342,7 +342,7 @@ body {
 
 .question-num strong {
     color: #0091FF;
-    
+
     span {
         color: #0091FF;
     }
@@ -474,10 +474,40 @@ body {
         --padding-width-xlarge: 28px;
         --padding-width-large: 16px;
     }
-    .question{
-        height: calc(100svh - 92px);
+
+    * {
+        font-family: Inter;
+        font-size: 14px;
     }
+
+    .title-content {
+        font-size: 28px;
+
+        span {
+            font-size: 28px;
+            font-weight: bold;
+        }
+    }
+
+    .question {
+        height: calc(100svh - 86px);
+    }
+
+    .question-num {
+        strong {
+            font-size: 24px;
+
+            span {
+                font-size: 24px;
+            }
+        }
+    }
+
     .answer {
         flex: 1 0 100%;
+    }
+
+    .answer-head {
+        font-size: 20px;
     }
 }

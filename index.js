@@ -31,7 +31,7 @@ function scrollQuestion(elem) {
 function listenerAnswerClick() {
   const answers = document.querySelectorAll(".answer");
   answers.forEach((answer) => {
-    answer.addEventListener("click", () => {
+    answer.addEventListener("click", async () => {
       const parent = answer.closest(".question");
       if (parent.classList.contains("answered")) {
         console.log("da tl r");
@@ -50,13 +50,13 @@ function listenerAnswerClick() {
         .innerText.trim()
         .toString();
       if (currentAnswer === correctAnswer) {
+        await sound("correct");
         answer.classList.add("correct");
         questionPass++;
         console.log(questionPass);
-        sound("correct");
       } else {
+        await sound("uwu");
         answer.classList.add("wrong");
-        // sound("uwu");
       }
       parent.classList.add("answered");
       parent.classList.add("animated");
