@@ -25,7 +25,7 @@ function getHeight(elem) {
 //func scroll question next
 function scrollQuestion(elem) {
   const height = getHeight(elem);
-  document.querySelector(".question-show").scrollTop += height;
+  document.querySelector(".question-show-wrapper").scrollTop += height;
 }
 //func listener click for answer
 function listenerAnswerClick() {
@@ -49,14 +49,14 @@ function listenerAnswerClick() {
         .querySelector(".answer-body p")
         .innerText.trim()
         .toString();
-      console.log(currentAnswer);
-
       if (currentAnswer === correctAnswer) {
         answer.classList.add("correct");
+        questionPass++;
+        console.log(questionPass);
         sound("correct");
       } else {
         answer.classList.add("wrong");
-        sound("uwu");
+        // sound("uwu");
       }
       parent.classList.add("answered");
       parent.classList.add("animated");
@@ -64,13 +64,12 @@ function listenerAnswerClick() {
         parent.classList.remove("animated");
         cooldown = true;
         scrollQuestion(parent);
-      }, 1500);
+      }, 600);
     });
   });
 }
 
 //process file from field input
-
 document.getElementById("file").addEventListener("change", function (e) {
   const files = e.target.files;
   const file = files[files.length - 1];
@@ -106,7 +105,7 @@ function checkData() {
   const jsonName = JSON.parse(localStorage.getItem("fileName"));
   let found = false;
   if (jsonData && jsonName) {
-    console.log("co data", jsonData, jsonName);
+    // console.log("co data", jsonData, jsonName);
     document.getElementById("start").classList.add("enable");
     document.querySelector(".file-upload-name").textContent = jsonName;
     listenerBtnStart();
@@ -181,12 +180,14 @@ function createElemQuestion(index, question, correct, options) {
   return questionElem;
 }
 //func load question
+let questionNum = 0;
+let questionPass = 0;
 function loadQuestions() {
   if (checkData()) {
     const jsonDatas = JSON.parse(localStorage.getItem("questions"));
     document.querySelector(".question-list").innerHTML = "";
+    console.log();
     jsonDatas.forEach((data, index) => {
-      console.log(data);
       const questionElem = createElemQuestion(
         index,
         data.question,

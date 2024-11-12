@@ -1,18 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Comfortaa:wght@300..700&family=Cookie&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Lexend:wght@100..900&family=Readex+Pro:wght@160..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    font-family: Lexend;
+    font-family: 'League Spartan';
+    font-family: 'Readex Pro';
+    font-family: 'Lexend';
+    font-family: 'Be Vietnam Pro';
+    font-family: 'Comfortaa';
     color: #E4E4E4;
     line-height: 1.5;
     user-select: none !important;
     -webkit-user-select: none !important;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 :root {
+    --padding-width-xlarge: 56px;
     --padding-width-large: 28px;
     --padding-width-medium: 16px;
     --padding-width-small: 8px;
@@ -48,9 +55,11 @@ button {
     border: unset;
     font-size: 16px;
 }
-input{
+
+input {
     font-size: 16px;
 }
+
 body {
     #toast {
         display: none;
@@ -147,16 +156,19 @@ body {
     align-items: center;
     gap: 16px;
 }
-#remove{
+
+#remove {
     background-color: #BB0000;
     padding: 4px 12px;
     border-radius: 6px;
     cursor: pointer;
 }
-#remove:active{
+
+#remove:active {
     background-color: #AA0000;
     scale: 0.99;
 }
+
 .json-input label {
     display: inherit;
     align-items: inherit;
@@ -169,16 +181,19 @@ body {
     border-radius: 6px;
     cursor: pointer;
 }
-.file-upload-name{
+
+.file-upload-name {
     border-radius: 6px;
     background-color: #0081FF2A;
     padding: 4px 12px;
 }
+
 .json-input .fake-button:active {
     background-color: #0071ff;
     scale: 0.99;
 }
-#start{
+
+#start {
     background-color: #3B3B3B;
     padding: 8px 16px;
     border-radius: 6px;
@@ -187,15 +202,18 @@ body {
     width: 100%;
     cursor: not-allowed;
 }
-#start.enable:active{
+
+#start.enable:active {
     scale: 0.99;
     background-color: #0071ff;
 }
-#start.enable{
+
+#start.enable {
     background-color: #0081FF;
     box-shadow: 0 0 10px #0081FF;
     cursor: pointer;
 }
+
 .app {
     max-width: 1200px;
     width: 100%;
@@ -210,10 +228,11 @@ body {
     flex-direction: column;
     flex: 1;
 }
+
 .title {
     font-size: 32px;
     text-align: center;
-    padding: 60px 0 30px 0;
+    padding: var(--padding-width-xlarge) 0 var(--padding-width-large) 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,21 +242,57 @@ body {
     z-index: 3;
 }
 
-.question-show {
-    display: flex;
-    margin: 0 -15px;
-    flex: 1;
-    overflow-y: hidden;
-    scroll-behavior: smooth;
-    /* transform: translateY(-1px); */
+.title-content span {
+    background-color: #0081FF1A;
+    padding: 2px 6px 4px 6px;
+    border-radius: 4px;
+    color: #0099FF;
 }
 
 .question-show {
+    margin: 0 -15px;
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    transform: translateY(-1px);
+    position: relative;
+}
+
+.question-show::before {
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    transform: translateY(-1px);
+    box-shadow: 0 0 10px 10px #292929;
+    position: absolute;
+}
+
+.question-show::after {
+    content: '';
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    transform: translateY(1px);
+    box-shadow: 0 0 10px 10px #292929;
+    position: absolute;
+}
+
+.question-show-wrapper {
+    flex: 1;
+    overflow-y: hidden;
+    display: flex;
+    scroll-behavior: smooth;
+}
+
+.question-show-wrapper {
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
 
-.question-show::-webkit-scrollbar {
+.question-show-wrapper::-webkit-scrollbar {
     display: none;
 }
 
@@ -245,7 +300,6 @@ body {
     display: flex;
     flex-direction: column;
     height: fit-content;
-    margin: 0 15px;
 }
 
 .question {
@@ -253,7 +307,17 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     padding: 16px 0;
-    height: calc(100svh - 138px);
+    height: calc(100svh - 120px);
+    overflow-y: auto;
+}
+
+.question {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.question::-webkit-scrollbar {
+    display: none;
 }
 
 .question-head {
@@ -263,6 +327,7 @@ body {
     display: flex;
     align-items: stretch;
     gap: 16px;
+    margin: 0 15px;
 }
 
 .question-num {
@@ -277,20 +342,23 @@ body {
 
 .question-num strong {
     color: #0091FF;
-
+    
     span {
         color: #0091FF;
     }
 }
-.correct-answer{
+
+.correct-answer {
     display: none;
 }
+
 .question-body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 16px;
+    margin: 16px 15px 0 15px;
     gap: 16px;
 }
 
@@ -304,51 +372,63 @@ body {
     display: flex;
     align-items: stretch;
 }
+
 @keyframes opacity {
-    0%{
+    0% {
         opacity: 1;
     }
-    20%{
+
+    20% {
         opacity: 0.5;
     }
-    40%{
+
+    40% {
         opacity: 1;
     }
-    60%{
+
+    60% {
         opacity: 0.5;
     }
-    100%{
+
+    100% {
         opacity: 1;
     }
 }
+
 @keyframes scale {
-    0%{
+    0% {
         scale: 1;
     }
-    20%{
+
+    20% {
         scale: 1.01;
     }
-    40%{
-        
+
+    40% {
+
         scale: 0.99;
     }
-    60%{
+
+    60% {
         scale: 1.01;
     }
-    100%{
+
+    100% {
         scale: 1;
     }
 }
-.question.animated{
+
+.question.animated {
     .answer.correct {
         animation: scale .5s ease forwards;
     }
-    
+
     .answer.wrong {
         animation: scale .5s ease forwards;
     }
 
 }
+
 .answer.correct {
     outline: 2px solid var(--correct-answer) !important;
     box-shadow: 0 0 10px var(--correct-answer);
@@ -391,9 +471,12 @@ body {
 
 @media (max-width: 768px) {
     :root {
+        --padding-width-xlarge: 28px;
         --padding-width-large: 16px;
     }
-
+    .question{
+        height: calc(100svh - 92px);
+    }
     .answer {
         flex: 1 0 100%;
     }
