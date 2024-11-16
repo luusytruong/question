@@ -8,45 +8,36 @@ wrongSound.load();
 levelUpSound.load();
 finishedSound.load();
 //func sound eff
-async function sound(type, duration) {
-  let sound = null;
-  if (type == "correct") {
-    sound = correctSound;
-  } else if (type == "wrong") {
-    sound = wrongSound;
-  } else if (type == "levelUp") {
-    sound = levelUpSound;
-  } else if (type == "finished") {
-    sound = finishedSound;
-  }
-  try {
-    if (sound) {
-      sound.currentTime = 0;
-      await sound.play();
-      setTimeout(async () => {
-        sound.pause();
-        sound.currentTime = 0;
-      }, duration);
-    }
-  } catch (err) {
-    console.log(err);
+async function sound(sound) {
+  if (sound === "correct") {
+    correctSound.currentTime = 0;
+    await correctSound.play();
+  } else if (sound === "wrong") {
+    wrongSound.currentTime = 0.04;
+    await wrongSound.play();
+  } else if (sound === "finished") {
+    finishedSound.currentTime = 0;
+    await finishedSound.play();
+  } else {
+    levelUpSound.currentTime = 0;
+    await levelUpSound.play();
   }
 }
 //func playsound
 async function tick(elem, option) {
   if (option === "correct") {
-    await sound("correct", 500);
+    await sound("correct");
     elem.classList.add("correct");
     questionPass++;
     document.querySelector(".count-correct-answer span").innerText =
       questionPass;
     if (questionPass % 10 === 0) {
       setTimeout(async () => {
-        await sound("levelUp", 2000);
+        await sound();
       }, 300);
     }
   } else {
-    await sound("wrong", 500);
+    await sound("wrong");
     elem.classList.add("wrong");
     questionWrong++;
     document.querySelector(
@@ -71,7 +62,7 @@ function trasnformTranslate(elem) {
   currentTranslate += getHeight(elem);
   const list = document.querySelector(".question-list");
   list.style.transform = `translateY(-${currentTranslate}px)`;
-  console.log("hah", currentTranslate);
+  // console.log("hah", currentTranslate);
 }
 //func listener click for answer
 async function listenerAnswerClick() {
@@ -165,7 +156,7 @@ function listenerBtnStart() {
   document
     .querySelector("button.enable")
     .addEventListener("click", function () {
-      console.log(this);
+      // console.log(this);
       document.querySelector(".json-input").classList.remove("active");
       document.querySelector(".overlay").classList.remove("active");
       startCountUpTime();
