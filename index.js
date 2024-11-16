@@ -1,12 +1,22 @@
 //func sound eff
+const correctSound = new Audio("./sound/correct2.mp3");
+const wrongSound = new Audio("./sound/wrong.mp3");
+const levelUpSound = new Audio("./sound/levelUp.mp3");
+const finishedSound = new Audio("./sound/finished.mp3");
 async function sound(type) {
   let sound = null;
   if (type == "correct") {
-    sound = new Audio("./sound/correct.mp3");
+    sound = correctSound;
     sound.currentTime = 0;
-  } else if (type == "uwu") {
-    sound = new Audio("./sound/uwu.mp3");
-    sound.currentTime = 0.7;
+  } else if (type == "wrong") {
+    sound = wrongSound;
+    sound.currentTime = 0;
+  } else if (type == "levelUp") {
+    sound = levelUpSound;
+    sound.currentTime = 0;
+  } else if (type == "finished") {
+    sound = finishedSound;
+    sound.currentTime = 0;
   }
   try {
     if (sound) {
@@ -50,12 +60,24 @@ function listenerAnswerClick() {
         .innerText.trim()
         .toString();
       if (currentAnswer === correctAnswer) {
+        questionPass++;
+        console.log("pass", questionPass);
+        document.querySelector(".count-correct-answer span").innerText =
+          questionPass;
+        if (questionPass % 10 === 0) {
+          setTimeout(() => {
+            sound("levelUp");
+          }, 300);
+        }
         await sound("correct");
         answer.classList.add("correct");
-        questionPass++;
-        console.log(questionPass);
       } else {
-        await sound("uwu");
+        questionWrong++;
+        console.log("wrong", questionWrong);
+        document.querySelector(
+          ".count-correct-answer strong:last-child span"
+        ).innerText = questionWrong;
+        await sound("wrong");
         answer.classList.add("wrong");
       }
       parent.classList.add("answered");
@@ -125,6 +147,7 @@ function listenerBtnStart() {
       console.log(this);
       document.querySelector(".json-input").classList.remove("active");
       document.querySelector(".overlay").classList.remove("active");
+      startCountUpTime();
     });
 }
 //func listenner click remove button
@@ -182,10 +205,17 @@ function createElemQuestion(index, question, correct, options) {
 //func load question
 let questionNum = 0;
 let questionPass = 0;
+let questionWrong = 0;
 function loadQuestions() {
   if (checkData()) {
     const jsonDatas = JSON.parse(localStorage.getItem("questions"));
     document.querySelector(".question-list").innerHTML = "";
+    questionNum = jsonDatas.length;
+    document.querySelector(".count-correct-answer span").innerText =
+      questionPass;
+    document.querySelector(
+      ".count-correct-answer strong:last-child span"
+    ).innerText = questionWrong;
     console.log();
     jsonDatas.forEach((data, index) => {
       const questionElem = createElemQuestion(
@@ -203,3 +233,30 @@ function loadQuestions() {
   }
 }
 loadQuestions();
+
+//func count up timer
+let time = 1; // Thời gian bắt đầu từ 0 giây
+const timerDisplayMinute = document.querySelector(".count-up-timer span");
+const timerDisplaySecond = document.querySelector(
+  ".count-up-timer span:nth-child(3)"
+);
+function startCountUpTime() {
+  const countdown = setInterval(() => {
+    const minutes = Math.floor(time / 60);
+    const seconds = time % 60;
+
+    // Định dạng thời gian
+    timerDisplayMinute.textContent = `${String(minutes).padStart(2, "0")}`;
+    timerDisplaySecond.textContent = `${String(seconds).padStart(2, "0")}`;
+
+    // Tăng thời gian
+    time++;
+
+    // Bạn có thể dừng bộ đếm theo ý muốn
+    // Ví dụ: dừng sau 1 giờ
+    if (time >= 3600) {
+      clearInterval(countdown);
+      timerDisplay.textContent = "Đã dừng!";
+    }
+  }, 1000);
+}
