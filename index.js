@@ -25,6 +25,7 @@ async function sound(type, duration) {
       await sound.play();
       setTimeout(async () => {
         sound.pause();
+        sound.currentTime = 0;
       }, duration);
     }
   } catch (err) {
