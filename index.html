@@ -30,7 +30,7 @@
             </div>
         </div>
     </div>
-    <div class="json-input active">
+    <div class="json-input ">
         <div class="wrapper">
             <div class="options">
                 <button id="remove">Remove</button>
@@ -44,12 +44,23 @@
             <button id="start">Start</button>
         </div>
     </div>
-    <div class="overlay active"></div>
+    <div class="overlay "></div>
     <div class="app">
         <div class="wrapper">
             <div class="title">
                 <p class="title-content">
                     Question <span>xyz</span>
+                </p>
+                <p class="count-up-timer">
+                    <i class="fa-regular fa-clock fa-spin"></i>
+                    <strong>
+                        <span>00</span>
+                        <span>:</span>
+                        <span>00</span>
+                    </strong>
+                </p>
+                <p class="count-correct-answer">
+                    <span>10</span><span>10</span>
                 </p>
             </div>
             <div class="question-show">
@@ -177,6 +188,7 @@
         </div>
     </div>
     <script src="index.js"></script>
+    <script src="countUpTimer.js"></script>
 </body>
 
 </html>
