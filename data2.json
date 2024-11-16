@@ -102,7 +102,7 @@
         },
         {
             "question": "Chọn cụm từ thích hợp để làm rõ nội dung: Theo quan điểm Hồ Chí Minh, nhà nước của nhân dân là nhà nước mà tất cả mọi ….. trong nhà nước và trong xã hội đều thuộc về nhân dân.",
-            "correct_answer": "Cán bộ, công chức",
+            "correct_answer": "Quyền lực",
             "options": [
                 "Quyền lực",
                 "Lực lượng",
@@ -112,7 +112,7 @@
         },
         {
             "question": "Thử thách về mặt lập trường tư tưởng mà Nguyễn Ái Quốc - Hồ Chí Minh phải vượt qua trong giai đoạn 1930 - 1941 là:",
-            "correct_answer": "Bị bệnh hiểm nghèo",
+            "correct_answer": "Quan điểm \"tả khuynh\" của Quốc tế Cộng sản thời kỳ đó",
             "options": [
                 "Đời sống khổ cực của người cách mạng trong điều kiện hoạt động bí mật",
                 "Quan điểm \"tả khuynh\" của Quốc tế Cộng sản thời kỳ đó",
@@ -122,7 +122,7 @@
         },
         {
             "question": "Nhân cách Hồ Chí Minh thời niên thiếu chịu ảnh hưởng sâu sắc từ một người phụ nữ được cho là điển hình về tính cần mẫn, tần tảo, đảm đang, hết mực thương yêu chồng, thương yêu các con và ăn ở nhân đức với mọi người, được bà con láng giềng mến phục. Người phụ nữ được nhắc đến ở đây là ai?",
-            "correct_answer": "Cụ bà Nguyễn Thị Kép - Bà ngoại Bác Hồ",
+            "correct_answer": "Cụ Hoang Thị Loan - Thân mẫu Bác Hồ",
             "options": [
                 "Bà Nguyễn Thị Thanh - Chị gái Bác Hồ",
                 "Cụ Hoàng Thị An - Dì ruột Bác Hồ",
@@ -132,7 +132,7 @@
         },
         {
             "question": "Trong quá trình xây dựng chủ nghĩa xã hội ở Việt Nam hiện nay, nhân tố nào được coi là nguồn động lực to lớn của đất nước ?",
-            "correct_answer": "Tinh thần nhân ái, khoan dung",
+            "correct_answer": "Chủ nghĩa yêu nước",
             "options": [
                 "Niềm tự hào dân tộc",
                 "Tinh thần cần cù, dũng cảm",
@@ -142,7 +142,7 @@
         },
         {
             "question": "Chọn đáp án đúng nhất cho câu sau:\nĐể xứng đáng là Đảng cầm quyền theo tư tưởng Hồ Chí Minh, trong giai đoạn hiện nay, Đảng cần :",
-            "correct_answer": "Nâng cao hoạt động chống tham nhũng",
+            "correct_answer": "Xây dựng, chỉnh đốn Đảng; ngăn chặn, đẩy lùi sự suy thoái về tư tưởng chính trị, đạo đức, lối sống, \"tự diễn biến\", \"tự chuyến hóa\" trong nội bộ Đảng",
             "options": [
                 "Đào tạo cho cán bộ, đảng viên trong các tổ chức Đảng",
                 "Xây dựng, chỉnh đốn Đảng; ngăn chặn, đẩy lùi sự suy thoái về tư tưởng chính trị, đạo đức, lối sống, \"tự diễn biến\", \"tự chuyến hóa\" trong nội bộ Đảng",
@@ -162,7 +162,7 @@
         },
         {
             "question": "Theo tư tưởng Hồ Chí Minh, lực lượng giải phóng dân tộc, giải phóng giai cấp, giải phóng con người là:",
-            "correct_answer": "Phong trào công nhân thế giới",
+            "correct_answer": "Khối đại đoàn kết dân tộc mà nòng cốt là liên minh công nông, trí thức",
             "options": [
                 "Đảng Cộng sản",
                 "Khối đại đoàn kết dân tộc mà nòng cốt là liên minh công nông, trí thức",
@@ -182,7 +182,7 @@
         },
         {
             "question": "Sự kiện lịch sử nào là bước ngoặt quan trọng trong cuộc đời của Hồ Chí Minh, chủ nghĩa yêu nước kết hợp chặt che với lập trường cách mạng vô sản, trở thành người cộng sản Việt Nam đầu tiên?",
-            "correct_answer": "Gia nhập Đảng Xã hội của giai cấp công nhân Pháp năm 1919",
+            "correct_answer": "Bỏ phiếu tán thành Quốc tế Cộng sản, tham gia sáng lập Đảng Cộng sản Pháp",
             "options": [
                 "Tham gia sáng lập Đảng Cộng sản Pháp",
                 "Gửi Yêu sách của nhân dân An Nam tới Hội nghị Vécxây (18-6-1919)",
@@ -192,7 +192,7 @@
         },
         {
             "question": "Việt Nam cuối thế kỷ XIX đầu thế kỷ XX đã xuất hiện những giai tầng mới, đó là những giai tầng nào?",
-            "correct_answer": "Tầng lớp địa chủ, phong kiến",
+            "correct_answer": "Giai cấp công nhân, giai cấp tư sản và tầng lớp tiểu tư sản ở thành thị",
             "options": [
                 "Giai cấp công nhân, giai cấp tư sản và tầng lớp tiểu tư sản ở thành thị",
                 "Giai cấp nông dân",
@@ -202,7 +202,7 @@
         },
         {
             "question": "Nội dung xây dựng con người trong tư tưởng Hồ Chí Minh",
-            "correct_answer": "Con người có văn hoá",
+            "correct_answer": "Con người vừa hồng vừa chuyên",
             "options": [
                 "Con người vừa hồng vừa chuyên",
                 "Con người có đức",
@@ -212,7 +212,7 @@
         },
         {
             "question": "Trong giai đoạn hiện nay, điều kiện quan trọng nhất để xây dựng khối đại đoàn kết toàn dân tộc là gì?",
-            "correct_answer": "Phải kế thừa truyền thống yêu nước, nhân nghĩa, đoàn kết của dân tộc",
+            "correct_answer": "Phải lấy lợi ích chung làm điểm quy tụ, đồng thời tôn trọng các lợi ích khác biệt chính đáng",
             "options": [
                 "Phải lấy lợi ích chung làm điểm quy tụ, đồng thời tôn trọng các lợi ích khác biệt chính đáng",
                 "Phải có lòng khoan dung, độ lượng với con người.",
@@ -222,7 +222,7 @@
         },
         {
             "question": "Nội dung trong đoạn trích sau đây của Hồ Chí Minh đề cập đến vấn đề gì” Cách mệnh trước hết phải có cái gì? Trước hết phải có Đảng cách mệnh, để trong thì vận dộng tổ chức dân chúng, ngoài thì liên lạc với các dân tộc bị áp bức và giai cấp mọi nơi”",
-            "correct_answer": "Tính chât của Đảng",
+            "correct_answer": "Vai trò của Đảng",
             "options": [
                 "Tính tiên phong của Đảng",
                 "Bản chất của Đảng",
@@ -232,7 +232,7 @@
         },
         {
             "question": "Hồ Chí Minh khẳng định: \"Làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới xã hội cộng sản\" trong tác phẩm nào?",
-            "correct_answer": "Báo cáo gửi Quốc tế Cộng sản",
+            "correct_answer": "Chánh cương vẫn tất của Đảng",
             "options": [
                 "Sách lược vẫn tắt của Đáng",
                 "Chánh cương vẫn tất của Đảng",
@@ -242,7 +242,7 @@
         },
         {
             "question": "Đoàn kết quốc tế theo tư tưởng Hồ Chí Minh là:",
-            "correct_answer": "Là nhiệm vụ chính trị",
+            "correct_answer": "Là vấn đề có tính nguyên tắc",
             "options": [
                 "Là vấn đề có tính nguyên tắc",
                 "Là một vấn đề sách lược",
@@ -252,7 +252,7 @@
         },
         {
             "question": "Trong giai đoạn hiện nay, vai trò của Mặt trận Tổ quốc Việt Nam trong hệ thống chính trị theo tư tưởng Hồ Chí Minh là:",
-            "correct_answer": "Điều hành",
+            "correct_answer": "Giám sát, phản biện",
             "options": [
                 "Giám sát, phản biện",
                 "Lãnh đạo",
@@ -262,7 +262,7 @@
         },
         {
             "question": "Đặc điểm \"Mọi quyền lợi, quyền lực, quyền hạn thuộc về nhân dân\" thuộc đặc trưng nào của chủ nghĩa xã hội theo quan điểm Hồ Chí Minh?",
-            "correct_answer": "Về xã hội",
+            "correct_answer": "Về chính trị",
             "options": [
                 "Về chính trị",
                 "Về văn hóa - đạo đức",
@@ -272,7 +272,7 @@
         },
         {
             "question": "Vì sao Quốc tế cộng sản có lúc xem nhẹ vai trò của cách mạng thuộc địa, coi cách mạng thuộc địa phụ thuộc vào cách mạng vô sản ở chính quốc và không ủng hộ quan điểm của Hồ Chí Minh?",
-            "correct_answer": "Quốc tế cộng sản nhìn thấy rõ khả năng của cách mạng thuộc dia",
+            "correct_answer": "Quốc tế cộng sản chưa đánh giá hết tiềm lực và khả năng to lớn của cách mạng thuộc địa",
             "options": [
                 "Quốc tế cộng sản xác định rõ xu thế của phong trào cách mạng vô sản",
                 "Quốc tế cộng sản tuân thủ các nguyên tắc về đấu tranh giai cấp",
@@ -282,7 +282,7 @@
         },
         {
             "question": "Theo Hồ Chí Minh, toàn bộ những sáng tạo và phát minh của con người nhằm thích ứng với nhu cầu của đời sống và sinh tồn, tức là?",
-            "correct_answer": "Văn minh",
+            "correct_answer": "Văn hoá",
             "options": [
                 "Văn hoá",
                 "Truyền thống",
@@ -292,7 +292,7 @@
         },
         {
             "question": "Quá trình hình thành và phát triển tư tưởng Hồ Chí Minh được chia thành mấy thời kỳ?",
-            "correct_answer": "6",
+            "correct_answer": "5",
             "options": [
                 "5",
                 "4",
@@ -302,7 +302,7 @@
         },
         {
             "question": "Trong giai đoạn hiện nay, vai trò của Đảng Cộng sản trong hệ thống chính trị xã hội chủ nghĩa theo tư tưởng Hồ Chí Minh là:",
-            "correct_answer": "Quản lý",
+            "correct_answer": "Lãnh đạo",
             "options": [
                 "Lãnh đạo",
                 "Điều hành",
@@ -312,7 +312,7 @@
         },
         {
             "question": "Trong quá trình hình thành và phát triển tư tưởng Hồ Chí Minh, đặc điểm cơ bản của thời kỳ từ đầu năm 1930 đến đầu năm 1941 là:",
-            "correct_answer": "Dần dần hình thành tư tưởng cứu nước, giải phóng dân tộc Việt Nam theo con đường cách mạng vô sản",
+            "correct_answer": "Vượt qua thử thách, giữ vững đường lối, phương pháp cách mạng Việt Nam đúng đắn, sáng tạo",
             "options": [
                 "Hình thành những nội dung cơ bản tư tưởng về cách mạng Việt Nam",
                 "Vượt qua thử thách, giữ vững đường lối, phương pháp cách mạng Việt Nam đúng đắn, sáng tạo",
@@ -322,7 +322,7 @@
         },
         {
             "question": "Theo Hồ Chí Minh: “Trong mấy triệu người cũng có người thế này thế khác, nhưng thế này hay thế khác đều dòng dõi tổ tiên ta. Vậy nên ta phải khoan hồng đại độ”. Câu nói trên của Hồ Chí Minh đề cập đến vấn đề gì?",
-            "correct_answer": "Lực lượng của khối đại đoàn kết dân tộc",
+            "correct_answer": "Điều kiện xây dựng đại đoàn kết dân tộc",
             "options": [
                 "Vai trò của đại đoàn kết dân tộc",
                 "Điều kiện xây dựng đại đoàn kết dân tộc",
@@ -342,7 +342,7 @@
         },
         {
             "question": "Hồ Chí Minh đề cập vấn đề gì trong nội dung sau: Việt Nam từ một nước nông nghiệp lạc hậu tiến thẳng lên chủ nghĩa xã hội, không trải qua giai đoạn phát triển tư bản chủ nghĩa?",
-            "correct_answer": "Đặc điểm của chủ nghĩa xã hội ở Việt Nam",
+            "correct_answer": "Đặc điểm của thời kỳ quá độ lên chủ nghĩa Xã hội ở Việt Nam",
             "options": [
                 "Tình tất yêu của thời kì quá độ ở Việt Nam",
                 "Tính chất của xã hội chủ nghĩa ở Việt Nam",
@@ -352,7 +352,7 @@
         },
         {
             "question": "Năm 1990 UNESCO đã công nhận ai là \"Anh hùng giải phóng dân tộc và nhà văn hóa kiệt xuất của Việt Nam\"",
-            "correct_answer": "Vua Trần Nhân Tông",
+            "correct_answer": "Chủ tịch Hồ Chí Minh",
             "options": [
                 "Vua Quang Trung - Nguyễn Huệ",
                 "Chủ tịch Hồ Chí Minh",
@@ -402,7 +402,7 @@
         },
         {
             "question": "Chữ \"Liêm\" trong quan niệm của Hồ Chí Minh được hiểu như thế nào?",
-            "correct_answer": "Liêm khiết",
+            "correct_answer": "Trong sạch, không tham lam   ",
             "options": [
                 "Thanh liêm",
                 "Trong sạch, không tham lam",
@@ -422,7 +422,7 @@
         },
         {
             "question": "Yếu tố cơ bản nào của thời đại chi phối và quyết định sự hình thành tư tưởng Hồ Chí Minh?",
-            "correct_answer": "Sự ra đời của Đảng Cộng sản ở các nước",
+            "correct_answer": "Sự thành công của cách mạng tháng Mười Nga",
             "options": [
                 "Chủ nghĩa tư bản phát triển ở giai đoạn tự do cạnh tranh",
                 "Sự thành công của cách mạng Tân Hợi",
@@ -432,7 +432,7 @@
         },
         {
             "question": "Theo Hồ Chí Minh, điểm chung để đoàn kết cách mạng Việt Nam với các phong trào giải phóng dân tộc trên thế giới là gì?",
-            "correct_answer": "Hòa bình trong công lý",
+            "correct_answer": "Độc lập, tự do và quyền bình đẳng giữa các dân tộc",
             "options": [
                 "Độc lập, tự do và quyền bình đẳng giữa các dân tộc",
                 "Vì chủ nghĩa xã hội",
@@ -442,7 +442,7 @@
         },
         {
             "question": "Trong các luận điểm dưới đây, đâu là luận điểm sáng tạo của Hồ Chí Minh và cũng là sự bổ sung, phát triển chủ nghĩa Mác - Lênin?",
-            "correct_answer": "Chỉ có thể thực hiện hoàn toàn công cuộc giải phóng các nước thuộc địa khi giai cấp vô sản giành được thắng lợi ở các nước tư bản tiên tiến",
+            "correct_answer": "Giải phóng giai cấp giải phóng dân tộc - giải phóng xã hội - giải phóng con người",
             "options": [
                 "Giải phóng giai cấp giải phóng dân tộc - giải phóng xã hội - giải phóng con người",
                 "Giai cấp công nhân phải tổ chức ra chính đảng, đáng đó phải thuyết phục, giác ngộ và tập hợp đông đảo quần chúng, huấn luyện quần chúng và đưa quần chúng ra đầu tranh",
@@ -452,7 +452,7 @@
         },
         {
             "question": "Theo Hồ Chí Minh, ở Việt Nam, quyền lực nhà nước là “thừa ủy quyền” của nhân dân. Đây là biểu hiện của hình thức:",
-            "correct_answer": "Dân chủ phổ thông",
+            "correct_answer": "Dân chủ gián tiếp",
             "options": [
                 "Dân chủ trực tiếp",
                 "Dân chủ gián tiếp",
@@ -472,7 +472,7 @@
         },
         {
             "question": "Chọn cụm từ thích hợp để hoàn chỉnh nội dung câu sau: Trong tư tưởng Hồ Chí Minh, đại đoàn kết dân tộc là vấn đề có ý nghĩa….., cơ bản, nhất quán và lâu dài, xuyên suốt tiến trình cách mạng.",
-            "correct_answer": "Cơ bản",
+            "correct_answer": "Chiến lược",
             "options": [
                 "Chiến lược",
                 "Sách lược",
@@ -492,7 +492,7 @@
         },
         {
             "question": "Trong Tư tưởng Hồ Chí Minh theo nghĩa hẹp văn hoá được hiểu là gì?",
-            "correct_answer": "Tổng hợp mọi phương thức sinh hoạt của con người",
+            "correct_answer": "Đời sống tinh thần của xã hội, thuộc kiến trúc thượng tầng",
             "options": [
                 "Đời sống tinh thần của xã hội, thuộc kiến trúc thượng tầng",
                 "Các trường học, số người đi học",
@@ -502,7 +502,7 @@
         },
         {
             "question": "Nền tảng của khối đại đoàn kết toàn dân tộc theo tư tưởng Hồ Chí Minh:",
-            "correct_answer": "Tầng lớp trí thức",
+            "correct_answer": "Liên minh công nhân, nông dân và trí thức",
             "options": [
                 "Liên minh công nhân, nông dân và trí thức",
                 "Giai cấp nông dân",
@@ -532,7 +532,7 @@
         },
         {
             "question": "Trong các phẩm chất đạo đức cơ bản của Việt Nam trong thời đại mới, phẩm chất nào quan trọng nhất, bao trùm nhất?",
-            "correct_answer": "Yêu thương con người",
+            "correct_answer": "Trung với nước, hiếu với dân",
             "options": [
                 "Trung với nước, hiếu với dân",
                 "Cần, kiệm, liêm chính, chí công vô tư",
@@ -542,7 +542,7 @@
         },
         {
             "question": "Nguyên nhân quan trọng nhất dẫn tới sự thất bại của các phong trào yêu nước cuối thế kỉ XIX đầu thế kỉ XX?",
-            "correct_answer": "Thua kém về vũ khí",
+            "correct_answer": "Thiếu một đường lối đúng đắn",
             "options": [
                 "Không phát huy được sức mạnh đại đoàn kết dân tộc",
                 "Thiếu một đường lối đúng đắn",
@@ -572,7 +572,7 @@
         },
         {
             "question": "Hồ Chí Minh đã tiếp thu những giá trị văn hoá phương Đông nào ?",
-            "correct_answer": "CN Mác-Lênin",
+            "correct_answer": "Những mặt tích cực của Nho giáo",
             "options": [
                 "Những mặt tích cực của Nho giáo",
                 "Lòng nhân ái của chúa Giê xu",
@@ -582,7 +582,7 @@
         },
         {
             "question": "Điền từ còn thiếu vào chỗ trống để hoàn thành luận điểm sau: “Dân tộc ta, nhân dân ta, non sông đất nước ta đã sinh ra Hồ Chủ tịch, ……………., và chính Người đã làm rạng rỡ dân tộc ta, nhân dân ta và non sông đất nước ta”. (Trích trong Điếu văn của Ban Chấp hành Trung ương Đảng trong đám tang Chủ tịch Hồ Chí Minh năm 1969)",
-            "correct_answer": "Người anh hùng dân tộc",
+            "correct_answer": "Người anh hùng dân tộc vĩ đại",
             "options": [
                 "Lãnh tụ vĩ đại của dân tộc",
                 "Người anh hùng dân tộc vĩ đại",
@@ -592,7 +592,7 @@
         },
         {
             "question": "Khái niệm tư tưởng Hồ Chí Minh là:",
-            "correct_answer": "Kết quả của sự vận dụng sáng tạo chủ nghĩa Mác - Lênin vào điều kiện cụ thể của nước ta",
+            "correct_answer": "Tất cả các đáp án trên",
             "options": [
                 "Tài sản tinh thần vô cùng to lớn và quý giá của Đảng và dân tộc ta",
                 "Tất cả các đáp án trên",
@@ -602,7 +602,7 @@
         },
         {
             "question": "Câu nói: \"Trước hết phải có Đảng cách mệnh đề trong thì vận động và tổ chức dân chúng, ngoài thì liên lạc với dân tộc bị áp bức và vô sản giai cấp mọi nơi\" được Nguyên Ái Quốc viết trong tác phẩm nào ?",
-            "correct_answer": "Di chúc",
+            "correct_answer": "Đường cách mệnh",
             "options": [
                 "Đường cách mệnh",
                 "Đây \"công lý của thực dân Pháp ở Đông Dương\"",
@@ -622,7 +622,7 @@
         },
         {
             "question": "Theo Hồ Chí Minh văn hoá là đời sống tinh thần của xã hội, thuộc?",
-            "correct_answer": "Quan hệ sản xuất",
+            "correct_answer": "Kiến trúc thượng tầng",
             "options": [
                 "Hình thái kinh tế - xã hội",
                 "Cơ sở hạ tầng",
@@ -632,7 +632,7 @@
         },
         {
             "question": "Nguyên tắc hoạt động nào của Đảng được Hồ Chí Minh xem là việc làm thường xuyên, “như mỗi ngày phải rửa mặt”?",
-            "correct_answer": "Tập thể lãnh đạo, cá nhân phụ trách",
+            "correct_answer": "Tự phê bình và phê bình",
             "options": [
                 "Dân chủ",
                 "Tự phê bình và phê bình",
@@ -642,7 +642,7 @@
         },
         {
             "question": "Hồ Chí Minh yêu cầu cán bộ, đảng viên: Nếu gặp khi lợi ích chung của Đảng mâu thuẫn với lợi ích riêng của cá nhân, thì:",
-            "correct_answer": "Phải đấu tranh để hài hòa giữa lợi ích cá nhân với lợi ích của Đảng",
+            "correct_answer": "Phải kiên quyết hy sinh lợi ích của cá nhân cho lợi ích của Đảng",
             "options": [
                 "Phải bày tỏ quan điểm cá nhân với chủ trương của Đảng",
                 "Phải kiên quyết hy sinh lợi ích của cá nhân cho lợi ích của Đảng",
@@ -652,7 +652,7 @@
         },
         {
             "question": ": Trong giai đoạn hiện nay, để xây dựng Đảng thực sự trong sạch vững mạnh cần:",
-            "correct_answer": "Phát triển chủ nghĩa Mác – Lênin",
+            "correct_answer": "Phải đề ra đường lối, chủ trương đúng đắn",
             "options": [
                 "Nhân dân được là chủ",
                 "Nhân dân được làm chủ",
@@ -662,7 +662,7 @@
         },
         {
             "question": "Điền từ còn thiếu vào chỗ trống: “Dân tộc ta, nhân dân ta, non sông đất nước ta đã sinh ra ……………., người anh hùng dân tộc vĩ đại, và chính Người đã làm rạng rỡ dân tộc ta, nhân dân ta và non sông đất nước ta”",
-            "correct_answer": "Trần Nhân Tông",
+            "correct_answer": "Hồ Chủ Tịch",
             "options": [
                 "Hồ Chủ Tịch",
                 "Quang Trung - Nguyễn Huệ",
@@ -672,7 +672,7 @@
         },
         {
             "question": ": Theo Hồ Chí Minh, nguyên lý “dân là chủ” đối với nhà nước Việt Nam mới nhằm khẳng định:",
-            "correct_answer": "Địa vị các cán bộ, công chức do nhân dân sắp đặt",
+            "correct_answer": "Địa vị chủ thể tối cao của mọi quyền lực thuộc về nhân dân",
             "options": [
                 "Cán bộ, công chức là “đày tớ” của nhân dân.",
                 "Mọi cơ quan nhà nước đều do nhân dân tổ chức nên",
@@ -692,7 +692,7 @@
         },
         {
             "question": "Trong qúa trình hình thành và phát triển tư tưởng Hồ Chí Minh, thời kỳ Hồ Chí Minh tiếp thu truyền thống tốt đẹp của quê hương, gia đình va của dân tộc hình thanh nên tư tưởng yêu nước và tìm đường cứu nước là?",
-            "correct_answer": "Thời kỳ 1911-1920",
+            "correct_answer": "Thời kỳ trước năm 1911",
             "options": [
                 "Thời kỳ 1920-1930",
                 "Thời kỳ 1930 – 1941",
@@ -702,7 +702,7 @@
         },
         {
             "question": "Điếu văn của Ban Chấp hành Trung ương Đảng trong đám tang Chủ tịch Hồ Chí Minh năm 1969 đã khẳng định Chủ tịch Hồ Chí Minh là:",
-            "correct_answer": "\"Anh hùng giải phóng dân tộc\"",
+            "correct_answer": "\"Anh hùng dân tộc vĩ đại\"",
             "options": [
                 "“Anh hùng giải phóng dân tộc và là nhà văn hóa kiệt xuất\"",
                 "\"Anh hùng dân tộc vĩ đại\"",
@@ -712,7 +712,7 @@
         },
         {
             "question": "Hồ Chi Minh đề cập đạo đức trong những quan hệ nào? Chọn đáp án sai:",
-            "correct_answer": "Đối người",
+            "correct_answer": "Đối với công danh",
             "options": [
                 "Đối với công danh",
                 "Đối với việc",
@@ -722,7 +722,7 @@
         },
         {
             "question": ": Theo Hồ Chí Minh, nhà nước vì dân là:",
-            "correct_answer": "Nhà nước ghi nhận các giá trị đạo đức phổ biến",
+            "correct_answer": "Nhà nước phục vụ lợi ích và nguyện vọng của nhân dân",
             "options": [
                 "Nhà nước phục vụ lợi ích và nguyện vọng của nhân dân",
                 "Nhà nước phát huy vai trò phản biện của các tổ chức",
@@ -732,7 +732,7 @@
         },
         {
             "question": "Vận dụng tư tưởng Hồ Chí Minh về văn hoá trong giai đoạn hiện nay cần phải làm gì. Chọn đáp án sai:",
-            "correct_answer": "Tiếp thu có chọn lọc các giá trị văn hoá nhân loại",
+            "correct_answer": "Hội nhập hoàn toàn vào nền văn hoá thế giới",
             "options": [
                 "Giữ gìn và phát huy bản sắc văn hoá dân tộc",
                 "Hội nhập hoàn toàn vào nền văn hoá thế giới",
@@ -752,7 +752,7 @@
         },
         {
             "question": "Điều kiện tiên quyết để xây dựng khối đại đoàn kết toàn dân tộc theo tư tưởng Hồ Chí Minh:",
-            "correct_answer": "Phải có lòng khoan dung, độ lượng với con người",
+            "correct_answer": "Phải lấy lợi ích chung làm điểm quy tụ, đồng thời tôn trọng các lợi ích khác biệt chính đáng.",
             "options": [
                 "Phải cần cù, chịu thương chịu khó",
                 "Phải kế thừa truyền thống yêu nước, nhân nghĩa đoàn kết của dân tộc",
@@ -762,7 +762,7 @@
         },
         {
             "question": "\"Tư tưởng Hồ Chí Minh là một hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Viet Nam\". Đoạn trích trên đề cập đến vấn đề gì trong khái niệm tư tưởng Hồ Chí Minh?",
-            "correct_answer": "Cơ sở hình thành tư tưởng Hồ Chí Minh",
+            "correct_answer": "Bản chất khoa học, cách mạng, nội dung cơ bản của tư tưởng Hồ Chí Minh",
             "options": [
                 "Ý nghĩa của tư tưởng Hồ Chí Minh",
                 "Vai trò lãnh đạo của Đảng Cộng sản Việt Nam",
@@ -782,7 +782,7 @@
         },
         {
             "question": "Cơ sở lý luận nào dẫn tới sự hình thành tư tưởng Hồ Chí Minh?",
-            "correct_answer": "Cách mạng tháng Mười năm 1917",
+            "correct_answer": "Tinh hoa văn hoa nhân loại",
             "options": [
                 "Cơ sở thế giới cuối thể kỷ XIX đầu thế kỷ XX",
                 "Cơ sở thực tiễn Viet Nam cuối thể kỷ XIX đầu thế kỷ XX",
@@ -792,7 +792,7 @@
         },
         {
             "question": "Lực lượng cần đoàn kết quốc tế theo tư tưởng Hồ Chí Minh. Chọn đáp án sai?",
-            "correct_answer": "Phong trào đấu tranh giải phóng dân tộc",
+            "correct_answer": "Phong trào nông dân trên thế giới",
             "options": [
                 "Phong trào cộng sản và công nhân quốc tế",
                 "Phong trào nông dân trên thế giới",
@@ -802,7 +802,7 @@
         },
         {
             "question": "Điền từ thích hợp để hoàn thiện quan điểm sau được nêu trong Đại hội VII (1991) của Đảng Cộng sản Việt Nam: \"Tư tưởng Hồ Chí Minh chính là kết quả sự ........ chủ nghĩa Mác – Lênin trong điều kiện cụ thể của nước ta\".",
-            "correct_answer": "Vận dụng và phát triển",
+            "correct_answer": "Vận dụng sáng tạo",
             "options": [
                 "Phát triển",
                 "Vận dụng sáng tạo",
@@ -812,7 +812,7 @@
         },
         {
             "question": "Tổ chức nào đã tôn vinh Chủ tịch Hồ Chí Minh là “Anh hùng giải phóng dân tộc và nhà văn hoá kiệt xuất”?",
-            "correct_answer": "0",
+            "correct_answer": "UNESCO",
             "options": [
                 "0",
                 "Chúc các bạn thi tốt",
@@ -842,7 +842,7 @@
         },
         {
             "question": "Trong đợt khai thác thuoc địa lần thứ nhất của thực dân Pháp nước ta có giai cấp mới nào được hình thành?",
-            "correct_answer": "Giai cấp địa chủ, phong kiến",
+            "correct_answer": "Giai cấp nông dân",
             "options": [
                 "Giai cấp công nhân",
                 "Giai cấp chủ nô",
@@ -852,7 +852,7 @@
         },
         {
             "question": "Trong xây dựng nhà nước pháp quyền xã hội chủ nghĩa của nhân dân, do nhân dân, vì nhân dân do Đảng Cộng sản lãnh đạo trong giai đoạn hiện nay, theo Tư tưởng Hồ Chí Minh cần chú ý những vấn đề gì? Chọn đáp án sai",
-            "correct_answer": "Nhà nước thượng tôn pháp luật",
+            "correct_answer": "Tam quyền phân lập trong xây dựng quyền lực Nhà nước",
             "options": [
                 "Nhà nước pháp quyền nhân nghĩa",
                 "Tam quyền phân lập trong xây dựng quyền lực Nhà nước",
@@ -872,7 +872,7 @@
         },
         {
             "question": "Tác phẩm nào của Lenin được Nguyễn Ái Quốc đọc vào Tháng 7 năm 1920?",
-            "correct_answer": "Sơ thảo lần thứ nhất vấn đề dân tộc và thuộc địa",
+            "correct_answer": "Sơ thảo lần thứ nhất những luận cương về vấn đề dân tộc và vấn đề thuộc địa",
             "options": [
                 "Sơ thảo lần thứ nhất Luận cương của Lênin về các vấn đề thuộc địa",
                 "Sơ thảo lần thứ nhất những luận cương về vấn đề dân tộc và vấn đề thuộc địa",
@@ -882,7 +882,7 @@
         },
         {
             "question": "Lựa chọn cụm từ đung đien vào cho trong trong cau nói sau của Hồ Chí Minh: \"Học để làm việc, .... , học để làm cán bộ\"",
-            "correct_answer": "Phục vụ nhân dân",
+            "correct_answer": "Làm người",
             "options": [
                 "Có tri thức",
                 "Làm người",
@@ -892,7 +892,7 @@
         },
         {
             "question": "Đâu là chuẩn mực đạo đức cách mạng trong tư tưởng Hồ Chí Minh?",
-            "correct_answer": "Trung với dân, hiếu với nước; cần, kiệm, liêm, chính, chỉ tư vô công; yêu thương con người,sống có tình có nghĩa; có tinh thần quốc tế trong sáng",
+            "correct_answer": "Trung với nước, hiếu với dân; cần, kiệm, liêm, chính, chí công vô tư yêu thương con người,sống có tình có nghĩa; có tinh thần quốc tế trong sáng",
             "options": [
                 "Trung với dân, hiếu với nước; cần, kiệm, liêm, chính, chí công vô tư; yêu thương con người,sống có tình có lí; có tinh thần quốc tế trong sáng",
                 "Trung với nước, hiếu với dân; cần, kiệm, liêm, chính, chỉ tư vô công; yêu thương con người,sống có tình có lí; có tinh thần quốc tế trong sáng",
@@ -912,7 +912,7 @@
         },
         {
             "question": "Theo Hồ Chí Minh, trung với nước là tuyệt đối trung thành với sự nghiệp dựng nước và giữ nước, trung thành với con đường đi lên của đất nước; là suốt đời phấn đấu cho:",
-            "correct_answer": "Giai cấp công nhân",
+            "correct_answer": "Đảng, cho cách mạng",
             "options": [
                 "Cho cách mạng",
                 "Đảng, cho cách mạng",
@@ -1072,7 +1072,7 @@
         },
         {
             "question": "Nội dung nào là một trong những nguyên tắc phương pháp luận trong nghiên cứu môn tư tưởng Hồ Chí Minh?",
-            "correct_answer": "Quan điểm cách mạng và cụ thể",
+            "correct_answer": "Quan điểm kế thừa và phát triển",
             "options": [
                 "Quan điểm kế thừa và toàn diện",
                 "Quan điểm toàn diện và cụ thể",
