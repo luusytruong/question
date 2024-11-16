@@ -1,25 +1,27 @@
-//func sound eff
 const correctSound = new Audio("./sound/correct2.mp3");
 const wrongSound = new Audio("./sound/wrong.mp3");
 const levelUpSound = new Audio("./sound/levelUp.mp3");
 const finishedSound = new Audio("./sound/finished.mp3");
+// Preload all sounds
+correctSound.load();
+wrongSound.load();
+levelUpSound.load();
+finishedSound.load;
+//func sound eff
 async function sound(type) {
   let sound = null;
   if (type == "correct") {
     sound = correctSound;
-    sound.currentTime = 0;
   } else if (type == "wrong") {
     sound = wrongSound;
-    sound.currentTime = 0;
   } else if (type == "levelUp") {
     sound = levelUpSound;
-    sound.currentTime = 0;
   } else if (type == "finished") {
     sound = finishedSound;
-    sound.currentTime = 0;
   }
   try {
     if (sound) {
+      sound.currentTime = 0;
       await sound.play();
     }
   } catch (err) {
@@ -46,7 +48,7 @@ function trasnformTranslate(elem) {
   console.log("hah", currentTranslate);
 }
 //func listener click for answer
-function listenerAnswerClick() {
+async function listenerAnswerClick() {
   const answers = document.querySelectorAll(".answer");
   answers.forEach((answer) => {
     answer.addEventListener("click", async () => {
@@ -69,8 +71,8 @@ function listenerAnswerClick() {
         .toString();
       if (currentAnswer === correctAnswer) {
         await sound("correct");
+        answer.classList.add("correct");
         questionPass++;
-        console.log("pass", questionPass);
         document.querySelector(".count-correct-answer span").innerText =
           questionPass;
         if (questionPass % 10 === 0) {
@@ -78,19 +80,17 @@ function listenerAnswerClick() {
             await sound("levelUp");
           }, 300);
         }
-        answer.classList.add("correct");
       } else {
         await sound("wrong");
+        answer.classList.add("wrong");
         questionWrong++;
-        console.log("wrong", questionWrong);
         document.querySelector(
           ".count-correct-answer strong:last-child span"
         ).innerText = questionWrong;
-        answer.classList.add("wrong");
       }
       parent.classList.add("answered");
       parent.classList.add("animated");
-      setTimeout(() => {
+      setTimeout(async () => {
         parent.classList.remove("animated");
         cooldown = true;
         // scrollQuestion(parent);
