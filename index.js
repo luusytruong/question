@@ -36,9 +36,14 @@ function getHeight(elem) {
 function scrollQuestion(elem) {
   const height = getHeight(elem);
   document.querySelector(".question-show-wrapper").scrollTop += height;
-  setTimeout(() => {
-    elem.remove();
-  }, 600);
+}
+//
+let currentTranslate = 0;
+function trasnformTranslate(elem) {
+  currentTranslate += getHeight(elem);
+  const list = document.querySelector(".question-list");
+  list.style.transform = `translateY(-${currentTranslate}px)`;
+  console.log("hah", currentTranslate);
 }
 //func listener click for answer
 function listenerAnswerClick() {
@@ -88,7 +93,8 @@ function listenerAnswerClick() {
       setTimeout(() => {
         parent.classList.remove("animated");
         cooldown = true;
-        scrollQuestion(parent);
+        // scrollQuestion(parent);
+        trasnformTranslate(parent);
       }, 600);
     });
   });
@@ -210,6 +216,7 @@ let questionNum = 0;
 let questionPass = 0;
 let questionWrong = 0;
 function loadQuestions() {
+  document.querySelector(".wait").classList.add("active");
   if (checkData()) {
     const jsonDatas = JSON.parse(localStorage.getItem("questions"));
     document.querySelector(".question-list").innerHTML = "";
@@ -230,9 +237,15 @@ function loadQuestions() {
       document.querySelector(".question-list").appendChild(questionElem);
     });
     listenerAnswerClick();
+    setTimeout(() => {
+      document.querySelector(".wait").classList.remove("active");
+    }, 1000);
     // console.log(jsonDatas[0].options[0]);
   } else {
     console.log("kh co data de load");
+    setTimeout(() => {
+      document.querySelector(".wait").classList.remove("active");
+    }, 1000);
   }
 }
 loadQuestions();

@@ -221,6 +221,24 @@ body {
     cursor: pointer;
 }
 
+.wait.active {
+    display: flex;
+}
+
+.wait {
+    position: fixed;
+    inset: 0;
+    background-color: #0000005A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.wait img {
+    max-width: 200px;
+}
+
 .app {
     max-width: 1200px;
     width: 100%;
@@ -283,6 +301,7 @@ body {
 .count-up-timer i {
     color: #0081FF;
 }
+
 .count-up-timer span {
     font-weight: normal;
 }
@@ -319,9 +338,11 @@ body {
 .count-correct-answer i:nth-child(1) {
     color: #00BB00;
 }
+
 .count-correct-answer i:nth-child(3) {
     color: #CC0000;
 }
+
 .count-correct-answer strong {
     display: flex;
     justify-content: flex-start;
@@ -349,6 +370,7 @@ body {
     transform: translateY(-1px);
     box-shadow: 0 0 10px 10px #292929;
     position: absolute;
+    z-index: 4;
 }
 
 .question-show::after {
@@ -360,6 +382,7 @@ body {
     transform: translateY(1px);
     box-shadow: 0 0 10px 10px #292929;
     position: absolute;
+    z-index: 4;
 }
 
 .question-show-wrapper {
@@ -382,6 +405,7 @@ body {
     display: flex;
     flex-direction: column;
     height: fit-content;
+    transition: all .8s ease;
 }
 
 .question {
@@ -389,7 +413,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     padding: 16px 0;
-    height: calc(100svh - 132px);
+    height: calc(100svh - 136px);
     overflow-y: auto;
 }
 
@@ -573,17 +597,25 @@ body {
             font-weight: bold;
         }
     }
-    .count-up-timer{
+
+    .count-up-timer {
         position: fixed;
         right: 15px;
         bottom: 16px;
     }
-    .count-correct-answer{
+
+    .count-correct-answer {
         position: fixed;
         left: 15px;
         bottom: 16px;
     }
-    .title::before{
+
+    .count-up-timer span:nth-child(1),
+    .count-up-timer span:nth-child(3) {
+        width: 30px;
+    }
+
+    .title::before {
         content: '';
         position: fixed;
         left: 0;
@@ -592,12 +624,15 @@ body {
         height: 57px;
         background-color: #292929;
     }
+
     .question {
-        height: calc(100svh - 86px);
+        height: calc(100svh - 84px);
     }
-    .question-show::after{
+
+    .question-show::after {
         bottom: 57px;
     }
+
     .question-num {
         strong {
             font-size: 24px;
