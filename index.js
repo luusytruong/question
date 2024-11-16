@@ -36,6 +36,9 @@ function getHeight(elem) {
 function scrollQuestion(elem) {
   const height = getHeight(elem);
   document.querySelector(".question-show-wrapper").scrollTop += height;
+  setTimeout(() => {
+    elem.remove();
+  }, 600);
 }
 //func listener click for answer
 function listenerAnswerClick() {
@@ -60,24 +63,24 @@ function listenerAnswerClick() {
         .innerText.trim()
         .toString();
       if (currentAnswer === correctAnswer) {
+        await sound("correct");
         questionPass++;
         console.log("pass", questionPass);
         document.querySelector(".count-correct-answer span").innerText =
           questionPass;
         if (questionPass % 10 === 0) {
-          setTimeout(() => {
-            sound("levelUp");
+          setTimeout(async () => {
+            await sound("levelUp");
           }, 300);
         }
-        await sound("correct");
         answer.classList.add("correct");
       } else {
+        await sound("wrong");
         questionWrong++;
         console.log("wrong", questionWrong);
         document.querySelector(
           ".count-correct-answer strong:last-child span"
         ).innerText = questionWrong;
-        await sound("wrong");
         answer.classList.add("wrong");
       }
       parent.classList.add("answered");
