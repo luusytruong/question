@@ -28,6 +28,28 @@ async function sound(type) {
     console.log(err);
   }
 }
+//func playsound
+async function tick(elem, option) {
+  if (option === "correct") {
+    await sound("correct");
+    elem.classList.add("correct");
+    questionPass++;
+    document.querySelector(".count-correct-answer span").innerText =
+      questionPass;
+    if (questionPass % 10 === 0) {
+      setTimeout(async () => {
+        await sound("levelUp");
+      }, 300);
+    }
+  } else {
+    await sound("wrong");
+    elem.classList.add("wrong");
+    questionWrong++;
+    document.querySelector(
+      ".count-correct-answer strong:last-child span"
+    ).innerText = questionWrong;
+  }
+}
 //anti spam
 let cooldown = true;
 //func return height for question
@@ -70,23 +92,9 @@ async function listenerAnswerClick() {
         .innerText.trim()
         .toString();
       if (currentAnswer === correctAnswer) {
-        await sound("correct");
-        answer.classList.add("correct");
-        questionPass++;
-        document.querySelector(".count-correct-answer span").innerText =
-          questionPass;
-        if (questionPass % 10 === 0) {
-          setTimeout(async () => {
-            await sound("levelUp");
-          }, 300);
-        }
+        await tick(answer, "correct");
       } else {
-        await sound("wrong");
-        answer.classList.add("wrong");
-        questionWrong++;
-        document.querySelector(
-          ".count-correct-answer strong:last-child span"
-        ).innerText = questionWrong;
+        await tick(answer, "");
       }
       parent.classList.add("answered");
       parent.classList.add("animated");

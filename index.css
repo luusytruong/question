@@ -626,7 +626,7 @@ body {
     }
 
     .question {
-        height: calc(100svh - 84px);
+        height: calc(100svh - 84px - 57px);
     }
 
     .question-show::after {
