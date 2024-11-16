@@ -2,7 +2,7 @@ const correctSound = new Audio("./sound/correct2.mp3");
 const wrongSound = new Audio("./sound/wrong.mp3");
 const levelUpSound = new Audio("./sound/levelUp2.mp3");
 const finishedSound = new Audio("./sound/finished.mp3");
-// Preload all sounds
+// preload all sounds
 correctSound.load();
 wrongSound.load();
 levelUpSound.load();
@@ -13,7 +13,7 @@ async function sound(sound) {
     correctSound.currentTime = 0;
     await correctSound.play();
   } else if (sound === "wrong") {
-    wrongSound.currentTime = 0.04;
+    wrongSound.currentTime = 0;
     await wrongSound.play();
   } else if (sound === "finished") {
     finishedSound.currentTime = 0;
@@ -26,7 +26,7 @@ async function sound(sound) {
 //func playsound
 async function tick(elem, option) {
   if (option === "correct") {
-    await sound("correct");
+    const s = await sound("correct");
     elem.classList.add("correct");
     questionPass++;
     document.querySelector(".count-correct-answer span").innerText =
@@ -37,7 +37,7 @@ async function tick(elem, option) {
       }, 300);
     }
   } else {
-    await sound("wrong");
+    const s = await sound("wrong");
     elem.classList.add("wrong");
     questionWrong++;
     document.querySelector(
