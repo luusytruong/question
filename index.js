@@ -1,14 +1,14 @@
 const correctSound = new Audio("./sound/correct2.mp3");
 const wrongSound = new Audio("./sound/wrong.mp3");
-const levelUpSound = new Audio("./sound/levelUp.mp3");
+const levelUpSound = new Audio("./sound/levelUp2.mp3");
 const finishedSound = new Audio("./sound/finished.mp3");
 // Preload all sounds
 correctSound.load();
 wrongSound.load();
 levelUpSound.load();
-finishedSound.load;
+finishedSound.load();
 //func sound eff
-async function sound(type) {
+async function sound(type, duration) {
   let sound = null;
   if (type == "correct") {
     sound = correctSound;
@@ -23,6 +23,9 @@ async function sound(type) {
     if (sound) {
       sound.currentTime = 0;
       await sound.play();
+      setTimeout(async () => {
+        sound.pause();
+      }, duration);
     }
   } catch (err) {
     console.log(err);
@@ -31,18 +34,18 @@ async function sound(type) {
 //func playsound
 async function tick(elem, option) {
   if (option === "correct") {
-    await sound("correct");
+    await sound("correct", 500);
     elem.classList.add("correct");
     questionPass++;
     document.querySelector(".count-correct-answer span").innerText =
       questionPass;
     if (questionPass % 10 === 0) {
       setTimeout(async () => {
-        await sound("levelUp");
+        await sound("levelUp", 2000);
       }, 300);
     }
   } else {
-    await sound("wrong");
+    await sound("wrong", 500);
     elem.classList.add("wrong");
     questionWrong++;
     document.querySelector(
